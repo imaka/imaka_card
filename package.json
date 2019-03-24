@@ -1,10 +1,10 @@
 {
-  "name": "@diegoperez/card",
-  "version": "1.4.0",
+  "name": "i_maka",
+  "version": "1.6.0",
   "description": "A personal card for Diego Pérez (@i_maka)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "i_maka": "./bin/card.js"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,8 @@
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
     "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "basic": "^2.0.3"
   }
 }
