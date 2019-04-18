@@ -22,7 +22,8 @@ const data = {
     chalk.yellow("TPRG"),
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("i_maka"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~imaka"),
-  github: chalk.gray("https://github.com/") + chalk.green("imaka"),
+  github: chalk.gray("https://github.com/") + chalk.black("imaka"),
+  devto: chalk.gray("https://dev.to/") + chalk.white("i_maka"),
   linkedin:
     chalk.gray("https://linkedin.com/in/") + chalk.blue("dperezmartinez"),
   npx: chalk.red("npx") + " " + chalk.white("i_maka"),
@@ -30,6 +31,7 @@ const data = {
   labelTwitter: chalk.white.bold("    Twitter:"),
   labelnpm: chalk.white.bold("        npm:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
+  labelDevTo: chalk.white.bold("     Dev.to:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
   labelCard: chalk.white.bold("       Card:")
 };
@@ -41,6 +43,7 @@ const working = `${data.labelWork}  ${data.work}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
+const devtoing = `${data.labelDevTo}  ${data.devto}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
@@ -58,6 +61,8 @@ const output =
   newline + // data.labelnpm + data.npm
   githubing +
   newline + // data.labelGitHub + data.github
+  devtoing +
+  newline + // data.labelDevTo + data.devto
   linkedining +
   newline + // data.labelLinkedIn + data.linkedin
   newline + // data.labelWeb + data.web
