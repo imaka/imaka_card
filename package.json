@@ -26,6 +26,7 @@
     "business card"
   ],
   "author": "Diego Perez <dperezmartinez@gmail.com>",
+  "homepage": "https://imaka.github.io",
   "license": "MIT",
   "files": [
     "bin/card.js",
