@@ -10,16 +10,14 @@ const path = require("path");
 const options = {
   padding: 1,
   margin: 1,
-  borderStyle: "round"
+  borderStyle: "round",
 };
 
 // Text + chalk definitions
 const data = {
   name: chalk.white("              Diego Pérez"),
   handle: chalk.grey("Angular and SFCC developer"),
-  work:
-    chalk.white("Senior Salesforce Commerce Cloud Developer at ") +
-    chalk.yellow("TPRG"),
+  work: chalk.white("Lead SFCC Developer at ") + chalk.yellow("Tempur Sealy"),
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("i_maka"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~imaka"),
   github: chalk.gray("https://github.com/") + chalk.black("imaka"),
@@ -33,7 +31,7 @@ const data = {
   labelGitHub: chalk.white.bold("     GitHub:"),
   labelDevTo: chalk.white.bold("     Dev.to:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-  labelCard: chalk.white.bold("       Card:")
+  labelCard: chalk.white.bold("       Card:"),
 };
 
 // Actual strings we're going to output

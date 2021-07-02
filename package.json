@@ -1,6 +1,6 @@
 {
   "name": "i_maka",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "A personal card for Diego Pérez (@i_maka)",
   "main": "/bin/card.js",
   "bin": {
